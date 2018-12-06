@@ -7,6 +7,7 @@ require 'site_prism'
 require_relative 'page_helper.rb'
 require_relative 'helper.rb'
 
+#Definitions
 World(Capybara::DSL)
 World(Capybara::RSpecMatchers)
 World(Pages)
